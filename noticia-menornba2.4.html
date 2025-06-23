@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>WebNews</title>
+    <link rel="icon" type="image/x-icon" href="logo/favicon.ico">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- CSS Local -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="index.html">
+            <img src="logo/logo webnews.jpeg" height="100" alt="logo WebNews" loading="lazy" />
+        </a>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid justify-content-center gap-3 text-bg-dark p-3">
+                <a href="esportes.html" class="text-white text-decoration-none">
+                    <span class="fs-1" data-bs-toggle="tooltip" title="Esportes" aria-label="Ícone de Esportes">
+                        <i class="bi bi-trophy" role="img" aria-hidden="true"></i>
+                    </span>
+                </a>
+                <a href="tecnologia.html" class="text-white text-decoration-none">
+                    <span class="fs-1" data-bs-toggle="tooltip" title="Tecnologia" aria-label="Ícone de Tecnologia">
+                        <i class="bi bi-cpu" role="img" aria-hidden="true"></i>
+                    </span>
+                </a>
+            </div>
+            <div class="container-fluid justify-content-center gap-3 text-bg-dark p-3">
+                <div class="menu row align-items-center">
+                    <div class="col">
+                        <a href="nba.html"><strong>NBA</strong></a>
+                    </div>
+                    <div class="col">
+                        <a href="esportes.html"><strong>Futebol</strong></a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="container container-fluid">
+        <div>
+            <h1 style="text-align: center;">Jaylen Brown passa por cirurgia e deve estar pronto para pré-temporada
+            </h1>
+            <img src="imagens/jaylen-brown.webp"
+                alt="jaylen brown" class="imagem-center">
+        </div>
+        <div style="text-align: center;">
+            <p>
+            <h2>Ala dos Celtics teve menisco parcialmente rompido nos playoffs, mas recuperação segue dentro do previsto
+            </h2>
+            </p>
+            <p>
+            <h2>O ala do Boston Celtics, Jaylen Brown, passou por uma cirurgia artroscópica no joelho direito na última
+                quarta-feira (11), segundo informou a franquia. A expectativa é que o jogador de 28 anos esteja
+                totalmente recuperado e sem limitações para participar do training camp da equipe, que antecede a
+                próxima temporada da NBA.</h2>
+            </p>
+            <p>
+            <h2>De acordo com a ESPN, Brown encerrou os playoffs com uma lesão no menisco, que estava parcialmente
+                rompido. Mesmo com o problema físico, o jogador teve média de 22,1 pontos e 7,1 rebotes por partida na
+                pós-temporada.</h2>
+            </p>
+            <p>
+            <h2>O Boston Celtics foi eliminado nas semifinais da Conferência Leste pelo New York Knicks, após perder
+                Jayson Tatum, estrela do time, por conta de uma ruptura no tendão de Aquiles.
+
+                Brown, que já foi selecionado quatro vezes para o All-Star Game e eleito MVP das Finais da NBA, em 2025
+                teve médias de 22,2 pontos, 5,8 rebotes e 4,5 assistências – a melhor marca da carreira – em 63 jogos
+                nesta temporada regular, todos como titular.
+
+                Desde que foi escolhido na terceira posição do Draft de 2016 pelos Celtics, o ala acumula médias de 19,0
+                pontos, 5,3 rebotes e 2,6 assistências em 603 partidas disputadas, sendo titular em 496 delas.</h2>
+            </p>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer p-1 text-bg-dark text-center">
+        <p class="mt-3">Copyright &copy; 2025. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Inicializar tooltips
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        tooltipTriggerList.forEach(el => new bootstrap.Tooltip(el))
+    </script>
+
+</body>
+
+</html>

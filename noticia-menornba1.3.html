@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>WebNews</title>
+    <link rel="icon" type="image/x-icon" href="logo/favicon.ico">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- CSS Local -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="index.html">
+            <img src="logo/logo webnews.jpeg" height="100" alt="logo WebNews" loading="lazy" />
+        </a>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid justify-content-center gap-3 text-bg-dark p-3">
+                <a href="esportes.html" class="text-white text-decoration-none">
+                    <span class="fs-1" data-bs-toggle="tooltip" title="Esportes" aria-label="Ícone de Esportes">
+                        <i class="bi bi-trophy" role="img" aria-hidden="true"></i>
+                    </span>
+                </a>
+                <a href="tecnologia.html" class="text-white text-decoration-none">
+                    <span class="fs-1" data-bs-toggle="tooltip" title="Tecnologia" aria-label="Ícone de Tecnologia">
+                        <i class="bi bi-cpu" role="img" aria-hidden="true"></i>
+                    </span>
+                </a>
+            </div>
+            <div class="container-fluid justify-content-center gap-3 text-bg-dark p-3">
+                <div class="menu row align-items-center">
+                    <div class="col">
+                        <a href="nba.html"><strong>NBA</strong></a>
+                    </div>
+                    <div class="col">
+                        <a href="esportes.html"><strong>Futebol</strong></a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="container container-fluid">
+        <div>
+            <h1 style="text-align: center;">NBA: Lakers encaminha venda por valor bilionário e bate recorde nos EUA
+            </h1>
+            <img src="imagens/lakers-nba.webp"
+                alt="lakers" class="imagem-center">
+        </div>
+        <div style="text-align: center;">
+            <p>
+            <h2>Time de Los Angeles deve ser vendido por US$ 10 bilhões, cerca de R$ 54,8 bilhões</h2>
+            </p>
+            <p>
+            <h2>Mark Walter, CEO e presidente da holding TWG Global, está próximo de assumir o controle das ações dos
+                Los Angeles Lakers. A família Buss, que adquiriu a franquia em 1979, encaminhou a venda dos 17 vezes
+                campeões da NBA por 10 bilhões de dólares, cerca de R$ 54,8 bilhões.
+                De acordo com Shams Charania, jornalista especialista em NBA, o valor é pela parte majoritária da
+                franquia
+            </h2>
+            </p>
+            <p>
+            <h2>A venda representa uma grande mudança na organização de Los Angeles, que foi comprada pelo histórico
+                Jerry Buss, em 1979. Com o comando da família Buss, o Lakers se tornou uma das maiores e mais vitoriosas
+                franquias entre todos os esportes do mundo.
+
+                Após a morte de Jerry, em 2013, Jeanie Buss assumiu o comando como proprietária. Mesmo com a venda, ela
+                deve seguir no corpo diretivo dos Lakers.</h2>
+            </p>
+            <p style="font-size: x-large;"><strong>Recorde</strong></p>
+            <p>
+            <h2>Com a concretização da venda, o time de Los Angeles vai bater o recorde de valor de venda de uma
+                franquia esportiva na América do Norte.
+            </h2>
+            <p>
+            <h2>O maior valor pago até então havia sido US$ 6,1 bilhões, no começo de 2024, quando um grupo liderado
+                pelo empresário Bill Chisholm acertou a compra do Boston Celtics.
+
+            </h2>
+            </p>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer p-1 text-bg-dark text-center">
+        <p class="mt-3">Copyright &copy; 2025. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Inicializar tooltips
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        tooltipTriggerList.forEach(el => new bootstrap.Tooltip(el))
+    </script>
+
+</body>
+
+</html>
